@@ -1,1 +1,1 @@
-worker: python PallaInlineBot.py
+worker: python shitstorm.py
