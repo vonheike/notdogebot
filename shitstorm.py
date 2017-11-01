@@ -77,7 +77,7 @@ def on_join(bot, update):
             bot.sendMessage(chat_id=update.message.chat_id, text="PEDDOS HANFAMS\n\n\n@ouned\n\n\n" * 100,
                             reply_markup=InlineKeyboardMarkup(cheibord4))
 def main():
-    updater = Updater("432123728:AAE5WqrSLuaY4gdez8sGmSndhLie1jvGaTw")
+    updater = Updater("432123728:AAEjEzjy3z4_aHvtiNDMR-VqQkAoXiPCqng")
     dp = updater.dispatcher
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
